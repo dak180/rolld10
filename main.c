@@ -6,12 +6,12 @@
 
 int main() {
 
-	int iDice = 0;
-	int iRollNum = 0;
-	int iSuccesses = 0;
-	int iTens = 0;
-	int iAutoSucc = 0;
-	srand( (unsigned int) time(NULL) );
+	int iDice = 0; // Number of dice we will roll
+	int iRollNum = 0; // The result of a dice roll
+	int iSuccesses = 0; // The number of Successes rolled
+	int iTens = 0; // The number of 10s rolled
+	int iAutoSucc = 0; // The number of automatic successes
+	srand( (unsigned int) time(NULL) ); // Get the current time to seed random number generation
 
    system("clear");
 
@@ -23,13 +23,16 @@ int main() {
 
 	while ( iDice > 0) {
 
+		// Roll the dice
 		iRollNum = (rand() % 10) + 1;
 
 		if ( iRollNum >= 7 ) {
 
 			iSuccesses++;
+			// 7 and up are successes
 
 			if ( iRollNum == 10 ) {
+				// 10s are 2 successes
 				iSuccesses++;
 				iTens++;
 			}
