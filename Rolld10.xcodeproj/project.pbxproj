@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = SOURCE_ROOT; };
 		8DD76FB20486AB0100D96B5E /* rolld10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rolld10; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
