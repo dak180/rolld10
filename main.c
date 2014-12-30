@@ -11,7 +11,7 @@ int main() {
 	int iSuccesses = 0;
 	int iTens = 0;
 	int iAutoSucc = 0;
-	srand(time(NULL));
+	srand( (unsigned int) time(NULL) );
 
    system("clear");
 
