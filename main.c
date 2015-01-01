@@ -13,7 +13,7 @@ int main() {
 	int iAutoSucc = 0; // The number of automatic successes
 	srand( (unsigned int) time(NULL) ); // Get the current time to seed random number generation
 
-   system("clear");
+	system("clear");
 
 	printf("\nHow many d10(s) would you like to roll? ");
 	scanf("%d", &iDice);
@@ -45,7 +45,7 @@ int main() {
 
 	iSuccesses += iAutoSucc;
 
-	printf("\n\nYou got %d Success(es), with %d 10s and %d auto(s).\n",iSuccesses,iTens,iAutoSucc);
+	printf("\n\nYou got %d Success(es), with %d 10(s) and %d auto(s).\n",iSuccesses,iTens,iAutoSucc);
 
     return 0;
 }
